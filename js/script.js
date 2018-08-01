@@ -30,14 +30,15 @@ $.getJSON("regiones.geojson", function (data) {
 // Ranges and colors; more (http://colorbrewer.org)
 // Not listed in the ranges below displays as the last color
 function getColor (d) {
-  return d > 5000000 ? '#800026' :
-         d > 2000000 ? '#BD0026' :
-         d > 1800000 ? '#E31A1C' :
-         d > 700000 ? '#FC4E2A' :
-         d > 500000 ? '#FD8D3C' :
-         d > 300000 ? '#FEB24C' :
-         d > 200000 ? '#FED976' :
-                      '#FFEDA0';
+  
+ return d > 5000000 ? '#800026' :
+        d > 2000000 ? '#BD0026' :
+        d > 1800000 ? '#E31A1C' :
+        d > 700000 ? '#FC4E2A' :
+        d > 500000 ? '#FD8D3C' :
+        d > 300000 ? '#FEB24C' :
+        d > 200000 ? '#FED976' :
+                     '#FFEDA0';
 }
 
 // getColor property to match data column header in your GeoJson file
@@ -57,7 +58,7 @@ function highlightFeature(e) {
   var layer = e.target;
   layer.setStyle({
     weight: 2,
-    color: 'black',
+    color: 'red',
     fillOpacity: 1
   });
   info.update(layer.feature.properties);
