@@ -8,7 +8,7 @@ var map = L.map('map', {
 // Links to GitHub repo and data source credit
 map.attributionControl
 .setPrefix(
-  '<a href="http://github.com/jackdougherty/leaflet-map-polygon-hover">open-source code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JavaScript library for interactive maps">Leaflet</a>'
+  '<a href="https://github.com/transluciddata/mapa-censo-chile">open-source code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JavaScript library for interactive maps">Leaflet</a>'
 );
 map.attributionControl.addAttribution(
   'Instituto Nacional de Estadísticas (INE) &copy; <a href="https://www.censo2017.cl/">Datos Censo Chile - 2017</a>'
