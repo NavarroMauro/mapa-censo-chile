@@ -15,8 +15,9 @@ body {
 
 .leaflet-control {
   padding: 6px 8px;
-  font: 1.5vw/1.5vw Open Sans, sans-serif;
+  font: 2vw/2vw Open Sans, sans-serif;
   background: white;
+  line-height: 2.5vw;
   background: rgba(255,255,255,0.8);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
@@ -24,8 +25,7 @@ body {
 }
 
 .leaflet-container .leaflet-control-attribution {
-	background: #fff;
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(2, 2, 2, 0.116);
 	margin: 0;
 }
 
